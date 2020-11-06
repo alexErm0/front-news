@@ -1,0 +1,152 @@
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.sectionBar {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.sectionMenu {
+  padding: 0 0.7rem 0 1rem ;
+  font-size: 1.2rem;
+}
+
+.sectionItems {
+  padding: 0 0.5rem 0.1rem 1rem;
+}
+
+.siteTitle {
+  font-size: 1.3rem;
+  font-style: inherit;
+}
+
+.sections {
+  font-size: 1.06rem;
+}
+
+.signinBar {
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  color: white;
+}
+
+.signBox {
+  background-color: #313131;
+  padding: 0.4rem 1.2rem 0.5rem 1.2rem;
+  border-radius: 3px;
+}
+
+.signIcon {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.toolbarCategories {
+  font-size: 0.85rem;
+  align-items: center;
+  display: flex;
+  height: 45px;
+  background-color: #fafbfc;
+  justify-content: center;
+}
+
+.captive {
+  margin: 0 0.1rem;
+  padding: 0.5rem 1.2rem 0.8rem 1.2rem;
+  border-bottom: 2px solid #fafbfc;
+  align-items: center;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.captive:hover {
+  color: black;
+}
+
+.selected {
+  border-bottom: 3px solid black;
+  color: black;
+}
+
+.toolbar {
+  top: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafbfc;
+  font-weight: 600;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.articleText {
+  text-overflow: ellipsis;
+}
+
+.content{
+  display: flex;
+}
+
+.listedSections {
+  display: flex;
+  margin: 40px;
+  padding: 10px 16px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.latest {
+  align-self: flex-start;
+  flex-basis: 300px;
+}
+
+.secondary {
+  background-color: palevioletred;
+  border: 2px solid #313131;
+}
+
+.main {
+  flex-basis: 600px;
+}
+
+.flex-columns > * {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px;
+  margin: 15px;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover {
+  opacity: 0.8;
+}
