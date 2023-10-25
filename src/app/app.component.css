@@ -188,19 +188,19 @@ article {
 }
 
 .secondary-0 {
-  order: 2;
+  order: 1;
 }
 
 .secondary-1 {
-  order: 3;
+  order: 2;
 }
 
 .secondary-2 {
-  order: 4;
+  order: 3;
 }
 
 .secondary-3 {
-  order: 5;
+  order: 4;
 }
 
 .secondary-0, .secondary-1, .secondary-2, .secondary-3 {
@@ -291,7 +291,7 @@ article {
   }
 
   .latest {
-    order: 1;
+    order: 5;
   }
 
   .sections {
